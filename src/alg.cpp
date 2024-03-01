@@ -1,7 +1,7 @@
 // Copyright 2022 NNTU-CS
-#ifndef INCLUDE_ALG_H_
-#define INCLUDE_ALG_H_
+
 #include <cstdint>
+#include "alg.h"
 
 bool checkPrime (uint64_t value) {
   if (value <= 1) return false;
@@ -41,4 +41,4 @@ uint64_t sumPrime(uint64_t hbound) {
   }
   return sum;
 }
-#endif // INCLUDE_ALG_H_
+
